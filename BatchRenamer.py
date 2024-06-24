@@ -5,9 +5,9 @@ from tkinter import filedialog, messagebox
 from datetime import datetime
 
 
-class BulkFileRenamer:
+class BatchFileRenamer:
     """
-       A GUI application for bulk renaming files in a selected folder using various methods.
+       A GUI application for batch renaming files in a selected folder using various methods.
 
        Attributes:
            master (tk.Tk): The main window of the application.
@@ -44,7 +44,7 @@ class BulkFileRenamer:
 
     def __init__(self, master):
         """
-        Initialize the BulkFileRenamer class.
+        Initialize the BatchFileRenamer class.
 
         Args:
             master (tk.Tk): The root window or parent frame.
@@ -531,7 +531,7 @@ class BulkFileRenamer:
 def main():
     root = ttk.Window(themename="superhero")
 
-    app = BulkFileRenamer(root)
+    app = BatchFileRenamer(root)
     root.mainloop()
 
 
